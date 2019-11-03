@@ -6,6 +6,9 @@ import styled from 'styled-components';
 const Title = styled.a`
 text-decoration: none;
 color: #939393;
+margin: 1rem;
+margin-top: 100px;
+margin-left: 0.5cm;
 &:hover{
   color: #376F7C;
 }
@@ -13,7 +16,9 @@ color: #939393;
 const Pic = styled.img`
 float: left;
 `;
-const Date = styled.text`
+const Date = styled.text`;
+margin-top: 100px;
+margin-left: 0.5cm; 
 font-size: 16px;
 `;
 
