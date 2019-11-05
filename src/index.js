@@ -15,7 +15,6 @@ ReactDOM.render(
   <Provider store={store}>
     <Profile/>
     <App />
-    <Content />
   </Provider>, 
   document.getElementById('root')
 );
