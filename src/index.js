@@ -6,13 +6,17 @@ import Content from './components/Content'
 import Profile from './components/Profile';
 import { Provider } from 'react-redux';
 import createStore from './createStore';
+import Category from './components/Category'
+import Header from './components/Header'
 
 const store = createStore();
 
 ReactDOM.render(
   <Provider store={store}>
+    <Header />
+    <Category />
     <Content />
-    <Profile/>
+    <Profile />
   </Provider>, 
   document.getElementById('root')
 );
