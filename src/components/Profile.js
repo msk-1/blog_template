@@ -30,8 +30,8 @@ font-family: Meiryo;
 const Pic01 = styled.img`
 float: center;
 border-radius: 50%;
-width: 180px;
-height: 180px;
+width: 200px;
+height: 200px;
 `;
 
 const Name = styled.h1`
@@ -42,4 +42,6 @@ font-family: Meiryo;
 
 const Back = styled.section`
 background-color: #CCCCCC;
+width: 280px;
+text-align:center;
 `;
