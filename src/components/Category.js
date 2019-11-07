@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Search from './Search';
 
 const Categorys = styled.div`
 background: bisque;
@@ -7,6 +8,7 @@ margin: center;
 font-size: 28px;
 display:inline-block;
 height: auto;
+width: 100vw;
 a {
     color: #939393
     margin-right: 50px;
@@ -26,7 +28,7 @@ export default class Category extends React.Component {
                 <a href=''>category2</a>
                 <a href=''>category3</a>
                 <a href=''>category4</a>
-                <a href=''>category5</a>
+                <Search />
             </Categorys>
         )
     }

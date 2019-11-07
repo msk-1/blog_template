@@ -8,6 +8,7 @@ import { Provider } from 'react-redux';
 import createStore from './createStore';
 import Category from './components/Category'
 import Header from './components/Header'
+import Search from './components/Search'
 
 const store = createStore();
 
