@@ -5,30 +5,43 @@ import pic01 from '../resource/pic01.jpg'
 export default class Profile extends React.Component{
     render(){
         return(
-            <div>
+            <Back>
             <Pic01 src={pic01} width = "300" height="200" />
-            <Name>ボクは、てらそるまさき</Name>
-            <Title>あの、バナナはおやつに入りますか</Title>
-            </div>
+            <Name>Naoto Takise</Name>
+            <Title>
+                ブログ・アフィリエイトで<br/>
+                生計を立てているエンジニア<br/>
+                <br/>
+                ブログで月収800万円を<br/>
+                達成する方法を伝授します
+            </Title>
+            </Back>
         );
     }
 }
 
 // css
 const Title = styled.a`
-color: #FFFFFF;
-background-color: #000000;
-font-size: 30px;
+color: #666666;
+font-size: 20px;
 font-family: Meiryo;
 `;
 
 const Pic01 = styled.img`
-float: left;
+float: center;
+border-radius: 50%;
+width: 200px;
+height: 200px;
 `;
 
 const Name = styled.h1`
-color: #FFFFFF;
-font-size: 20px;
-background-color: #000000;
+color: #666666;
+font-size: 30px;
 font-family: Meiryo;
+`;
+
+const Back = styled.section`
+background-color: #CCCCCC;
+width: 280px;
+text-align:center;
 `;
