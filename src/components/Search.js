@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const SearchBox = styled.div`
 display:inline-block;
 float: right;
-margin-right: 1cm;
+margin-right: 5cm;
 `;
 
 export default class Search extends React.Component {

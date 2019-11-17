@@ -41,7 +41,6 @@ font-size: 30px;
 const Back = styled.section`
 text-align: center;
 width: 280px;
-margin-right: 30px;
 margin-left: auto;
 margin-top: 50px;
 float: right;
