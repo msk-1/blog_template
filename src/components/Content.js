@@ -5,13 +5,11 @@ import styled from 'styled-components';
 import {Padding} from './Utils';
 
 const Wrapper = styled.section`
+margin-top: 50px;
+margin-left: 40%;
 width: 650px;
 height: 200px;
-margin-top: 50px;
-margin-left: 200px;
-margin-right: auto;
 display: inline-block;
-float: left;
 `;
 
 const Title = styled.a`
