@@ -9,6 +9,7 @@ import createStore from './createStore';
 import Category from './components/Category'
 import Header from './components/Header'
 import Search from './components/Search'
+import styled from 'styled-components';
 
 const store = createStore();
 
