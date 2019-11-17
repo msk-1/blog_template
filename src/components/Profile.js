@@ -6,15 +6,15 @@ export default class Profile extends React.Component{
     render(){
         return(
             <Back>
-            <Pic01 src={pic01} width = "300" height="200" />
-            <Name>Naoto Takise</Name>
-            <Title>
-                ブログ・アフィリエイトで<br/>
-                生計を立てているエンジニア<br/>
-                <br/>
-                ブログで月収800万円を<br/>
-                達成する方法を伝授します
-            </Title>
+                <Pic01 src={pic01} width = "300" height="200" />
+                <Name>Naoto Takise</Name>
+                <Title>
+                    ブログ・アフィリエイトで<br/>
+                    生計を立てているエンジニア<br/>
+                    <br/>
+                    ブログで月収800万円を<br/>
+                    達成する方法を伝授します
+                </Title>
             </Back>
         );
     }
@@ -23,25 +23,26 @@ export default class Profile extends React.Component{
 // css
 const Title = styled.a`
 color: #666666;
-font-size: 20px;
-font-family: Meiryo;
+font-size: 15px;
 `;
 
 const Pic01 = styled.img`
 float: center;
 border-radius: 50%;
-width: 200px;
-height: 200px;
+width: 150px;
+height: 150px;
 `;
 
 const Name = styled.h1`
 color: #666666;
 font-size: 30px;
-font-family: Meiryo;
 `;
 
 const Back = styled.section`
-background-color: #CCCCCC;
+text-align: center;
 width: 280px;
-text-align:center;
+margin-right: 30px;
+margin-left: auto;
+margin-top: 50px;
+float: right;
 `;
